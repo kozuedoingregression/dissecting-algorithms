@@ -3,6 +3,9 @@ public:
     unordered_map<int, vector<int>> graph;
     
     int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) { 
+        ios_base::sync_with_stdio(0);
+cin.tie(0);
+cout.tie(0);
         unordered_map<int, vector<int>> graph;
         vector<int> indegree = vector(n, 0);
 
